@@ -1,0 +1,1 @@
+No es buena política crear montones de commits que hagan casi nada. Es mejor hacer un commit cuando haya algo de trabajo acumulado, o se haya producido algún cambio drástico en el proyecto.
