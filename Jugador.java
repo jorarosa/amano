@@ -13,23 +13,23 @@ public class Jugador {
 		this.setFechaNacimiento(fechaNacimiento);
 	}
 	
-	String getApellido() {
+	public String getApellido() {
 		return this.apellido;
 	}
 	
-	void setApellido(String apellido) {
+	public void setApellido(String apellido) {
 		this.apellido = apellido; 
 	}
 
-	GregorianCalendar getFechaNacimiento() {
+	public GregorianCalendar getFechaNacimiento() {
 		return this.fechaNacimiento;
 	}
 	
-	void setFechaNacimiento(GregorianCalendar fechaNacimiento) {
+	public void setFechaNacimiento(GregorianCalendar fechaNacimiento) {
 		this.fechaNacimiento = fechaNacimiento; 
 	}
 
-	String toString() {
+	public String toString() {
 		return this.apellido + " - " + this.fechaNacimiento;
 	}
 }	
