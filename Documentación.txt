@@ -1,0 +1,1 @@
+La clase Jugador es una clase abastracta.
