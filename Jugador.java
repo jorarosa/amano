@@ -39,9 +39,3 @@ public abstract class Jugador {
 		return this.apellido + " - " + this.fechaNacimiento;
 	}
 }
-
-enum EnumPosicion {
-  PORTERO,
-  DEFENSA,
-  DELANTERO
-}	
